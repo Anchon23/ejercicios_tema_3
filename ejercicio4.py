@@ -30,8 +30,8 @@ def eliminar_termino(polinomio, exponente):
 def existe_termino(polinomio, exponente):
     return exponente < len(polinomio) and polinomio[exponente] != 0
 
-polinomio1 = [3, 0, 2, 1]
-polinomio2 = [1, 2, 0, 2]
+polinomio1 = [3, 0, 2]
+polinomio2 = [1, 2, 0]
 print("Restar polinomios:", restar_polinomios(polinomio1, polinomio2))
 print("Dividir polinomios:", dividir_polinomios(polinomio1, polinomio2))
 print("Eliminar término:", eliminar_termino(polinomio1, 2))
