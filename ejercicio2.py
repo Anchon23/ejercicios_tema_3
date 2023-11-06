@@ -2,10 +2,10 @@ def determinante_matriz_recursivo(matriz):
     if len(matriz) != 3 or len(matriz[0]) != 3:
         return "La matriz debe ser de 3x3"
     
-    if len(matriz) == 1:
+    elif len(matriz) == 1:
         return matriz[0][0]
     
-    if len(matriz) == 2:
+    elif len(matriz) == 2:
         return matriz[0][0] * matriz[1][1] - matriz[0][1] * matriz[1][0]
     
     determinante = 0
